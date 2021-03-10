@@ -15,3 +15,10 @@ work-pester-jenkins-windows/
 /**/windows/**/jenkins.ps1
 /**/windows/**/jenkins-plugin-cli.ps1
 /**/windows/**/jenkins-support.psm1
+
+/.env
+/.vscode
+/config/*
+/jenkins_home/*
+/logs/*
+.DS_Store
