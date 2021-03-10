@@ -12,6 +12,21 @@ This is a fully functional Jenkins server.
 <img src="https://jenkins.io/sites/default/files/jenkins_logo.png"/>
 
 
+##  Installation
+ 
+* Clone this repository on your local computer
+* configure .env as needed 
+* Run the `docker-compose up -d`.
+
+```shell
+git clone https://github.com/Jinyo-Robin/docker-jenkins.git
+cd docker-jenkins/
+cp sample.env .env
+// modify sample.env as needed
+docker-compose up -d
+// visit localhost
+```
+
 # Usage
 
 ```
